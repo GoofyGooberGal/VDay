@@ -50,12 +50,21 @@
     }
 
     .hk {
-        width: 107px;
-        height: 85px;
+        /* width: 107px;
+        height: 85px; */
+        width: 25%; /* Adjust as needed */
+        height: auto; /* Automatically adjust height */
     } 
 
     .p12, .p34 {
         display: flex;
         justify-content: space-between;
+    }
+
+    .hkgif {
+        /* width: 540px;
+        height: 432; */
+        width: 100%; /* Adjust as needed */
+        height: auto; /* Automatically adjust height */
     }
 }

@@ -5,9 +5,13 @@
     body, html {
         margin: 0;
         padding: 0;
-        height: 100%;
         display: flex;
         flex-direction: column;
+        min-height: 100vh;
+        width: 100%;
+        float: left;
+        height: 100vh;
+        position: relative;
     }
     
     .container1 {
@@ -24,18 +28,23 @@
     }
     
     .hkgif {
-        width: 540px;
-        height: 432;
+        /* width: 540px;
+        height: 432; */
+        width: 30%; /* Adjust as needed */
+        height: auto; /* Automatically adjust height */
     }
     
     .hk {
-        width: 150px;
-        height: 150px
+        /* width: 150px;
+        height: 150px */
+        width: 5%; /* Adjust as needed */
+        height: auto; /* Automatically adjust height */
     }
     
     .p12, .p34 {
         display: flex;
         justify-content: space-between;
+        flex-shrink: 3;
     }
     
     .header {
