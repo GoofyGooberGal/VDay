@@ -33,9 +33,9 @@
         background-color: #FEFEFE;
         color: black;
         font-family: Spirax;
-        width: 150px;
-        height: 50px;
-        /* margin: 0 20px; */
+        width: 20%;
+        height: 100%;
+        /* margin: auto auto; */
     }
 
     .header {
@@ -64,7 +64,8 @@
     .hkgif {
         /* width: 540px;
         height: 432; */
-        width: 100%; /* Adjust as needed */
+        width: 80%; /* Adjust as needed */
         height: auto; /* Automatically adjust height */
+        flex-shrink: 2;
     }
 }

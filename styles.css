@@ -32,6 +32,7 @@
         height: 432; */
         width: 30%; /* Adjust as needed */
         height: auto; /* Automatically adjust height */
+        max-width: 100%;
     }
     
     .hk {
@@ -39,6 +40,7 @@
         height: 150px */
         width: 5%; /* Adjust as needed */
         height: auto; /* Automatically adjust height */
+        max-width: 100%;
     }
     
     .p12, .p34 {
